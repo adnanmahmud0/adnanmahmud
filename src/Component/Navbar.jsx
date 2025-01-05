@@ -11,8 +11,6 @@ const Navbar = () => {
         <li><Link>Projects</Link></li>
         <li><Link>Contact</Link></li>
     </>
-
-    
     
     return (
         <div className='bg-base-100'>

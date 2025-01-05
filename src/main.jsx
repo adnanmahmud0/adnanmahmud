@@ -7,6 +7,9 @@ import {
 } from "react-router-dom";
 import Root from './Root/Root';
 import Home from './Component/Home';
+import DoraGadget from './Component/Section/DoraGadget';
+import DonationPlatform from './Component/Section/DonationPlatform';
+import Crowdcube from './Component/Section/Crowdcube';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +19,18 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
+      },
+      {
+        path: "/Dora-Gadget",
+        element: <DoraGadget></DoraGadget>,
+      },
+      {
+        path: "/Donation-Platform",
+        element: <DonationPlatform></DonationPlatform>,
+      },
+      {
+        path: "/Crowd-Cube",
+        element: <Crowdcube></Crowdcube>,
       }
     ]
   },
