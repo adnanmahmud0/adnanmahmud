@@ -5,7 +5,7 @@ import { Outlet } from 'react-router-dom';
 
 const Root = () => {
     return (
-        <div>
+        <div className='bg-[#252734]'>
             <Navbar></Navbar>
             <Outlet></Outlet>
             <Footer></Footer>

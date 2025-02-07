@@ -1,49 +1,61 @@
-import React from 'react';
+import React from "react";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGit } from "react-icons/fa";
+import { SiTailwindcss, SiMongodb, SiExpress, SiPhp, SiPython, SiKeras } from "react-icons/si";
 
 const SkillEducation = () => {
     return (
-        <div className="bg-gray-100 px-6 py-12 min-h-screen">
-            <div className="lg:max-w-7xl max-w-lg mx-auto px-6 py-8 bg-white rounded-lg shadow-md">
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-                    <div className="max-h-80">
-                        <img
-                            src="https://readymadeui.com/management-img.webp"
-                            alt="Image"
-                            className="rounded-md object-cover w-full h-full"
-                        />
+        <>
+            <div id="skilledu" className="max-w-7xl mx-auto py-16 px-6 my-32">
+                <h2 className="text-white text-4xl font-bold text-center mb-10">
+                    My Skills & Technologies
+                </h2>
+
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    {/* Frontend */}
+                    <div className="bg-white p-6 rounded-lg shadow-md text-center">
+                        <h3 className="text-2xl font-semibold mb-4 text-blue-600">Frontend</h3>
+                        <div className="flex justify-center space-x-6 text-5xl text-blue-500">
+                            <p><FaHtml5 /> <FaCss3Alt /> <SiTailwindcss /> <FaJs /> <FaReact /></p>
+                        </div>
                     </div>
-                    <div>
-                        <h2 className="text-3xl font-extrabold text-blue-700 mb-4">
-                            Skill
-                        </h2>
-                        <p className="text-gray-600 text-sm">
-                            As a MERN Stack Web Developer this is my skills
-                        </p>
-                        <ul className="list-disc text-sm text-gray-600 space-y-2 pl-4 mt-6">
-                            <li>
-                                <strong className="text-blue">Frontend:</strong> HTML, CSS, Tailwind, JavaScript, and React.
-                            </li>
-                            <li>
-                                <strong className="text-blue">Backend:</strong> Node.js, Express.js.
-                            </li>
-                            <li>
-                                <strong className="text-blue">Database:</strong> MongoDB.
-                            </li>
-                            <li>
-                                <strong className="text-blue">Additional Tools/Topics:</strong> Firebase, API integration, version control with Git/GitHub, and project deployment.
-                            </li>
-                        </ul>
-                        <h2 className="text-3xl font-extrabold text-blue-700 my-4">
-                            Education
-                        </h2>
-                        <p className="text-gray-600 text-sm">
-                            B.Sc. in CSE <br />
-                            Daffodil International University.
-                        </p>
+
+                    {/* Backend */}
+                    <div className="bg-white p-6 rounded-lg shadow-md text-center">
+                        <h3 className="text-2xl font-semibold mb-4 text-green-600">Backend</h3>
+                        <div className="flex justify-center space-x-6 text-5xl text-green-500">
+                            <p><FaNodeJs /> <SiExpress /> <SiMongodb /> <SiPhp /></p>
+                        </div>
+                    </div>
+
+                    {/* Data Science & AI */}
+                    <div className="bg-white p-6 rounded-lg shadow-md text-center">
+                        <h3 className="text-2xl font-semibold mb-4 text-yellow-600">Data Science & AI</h3>
+                        <div className="flex justify-center space-x-6 text-5xl text-yellow-500">
+                            <p class="space-y-3">
+                                <SiPython /> <SiKeras />
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+            <div class="p-6">
+                <h2 className="text-white text-4xl font-bold text-center mb-10">
+                    Educational Qualification
+                </h2>
+                <div class="grid md:grid-cols-2 items-center gap-10 max-w-5xl max-md:max-w-md mx-auto">
+                    <div class="md:h-[400px]">
+                        <img src="https://studentshub.daffodilvarsity.edu.bd/assets/img/about/1719679319.jpeg" class="w-full h-full rounded-md object-cover" />
+                    </div>
+
+                    <div class="max-md:text-center">
+                        <h3 class="text-white font-semibold md:text-3xl text-2xl md:leading-10">Daffodil International University</h3>
+                        <p class="text-gray-300 mt-4 text-sm leading-relaxed">B.Sc. in Computer Science and Engineering</p>
+                    </div>
+                </div>
+            </div>
+        </>
+
+
     );
 };
 

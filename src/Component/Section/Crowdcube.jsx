@@ -23,12 +23,23 @@ const Crowdcube = () => {
                 <div className="mb-6">
                     <h2 className="text-xl font-semibold mb-2">Live Website</h2>
                     <a
-                        href="https://your-live-site-url.com"
+                        href="https://crowdcube-1b085.web.app/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-blue-500 hover:underline"
                     >
                         Crowdcube Live Link
+                    </a>
+                </div>
+                <div className="mb-6">
+                    <h2 className="text-xl font-semibold mb-2">GitHub</h2>
+                    <a
+                        href="https://github.com/adnanmahmud0/assignment10"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-500 hover:underline"
+                    >
+                        Crowdcube github Link
                     </a>
                 </div>
 
