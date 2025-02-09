@@ -44,8 +44,8 @@ const ContactSection = () => {
             <div className="text-center">
                 <h2 className="text-4xl font-extrabold text-white mb-10">Contact</h2>
             </div>
-            <div id='contact' className=' flex justify-center items-center'>
-                <div className="grid sm:grid-cols-2 items-start gap-16 p-4 mx-auto max-w-7xl text-white">
+            <div id='contact' className=' flex justify-center items-center p-4'>
+                <div className="grid sm:grid-cols-2 items-start gap-16 mx-auto max-w-7xl text-white">
                     <div>
                         <div className="mt-12">
                             <h2 className=" text-base font-bold">Email</h2>
