@@ -4,11 +4,11 @@ import screenshot from '../../assets/project2.png';
 
 const DonationPlatform = () => {
     return (
-        <div className="min-h-screen bg-gray-100 p-6">
-            <div className="max-w-6xl mx-auto bg-white shadow-lg rounded-lg p-6">
-                <h1 className="text-3xl font-bold text-center mb-6 text-indigo-600">Donation Platform</h1>
+        <div className="min-h-screen bg-gray-900 text-white p-6">
+            <div className="max-w-6xl mx-auto bg-gray-800 shadow-lg rounded-lg p-6">
+                <h1 className="text-3xl font-bold text-center mb-6 text-indigo-500">Donation Platform</h1>
 
-                <p className="text-lg text-gray-700 text-center mb-4">
+                <p className="text-lg text-gray-300 text-center mb-4">
                     This platform connects generous donors with impactful donation campaigns across Bangladesh.
                 </p>
 
@@ -26,21 +26,21 @@ const DonationPlatform = () => {
                         href="https://heat-of-giving.web.app/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-blue-500 hover:underline"
+                        className="text-blue-400 hover:underline"
                     >
                         Donation Platform Live Link
                     </a>
                 </div>
 
                 <div className="mb-6">
-                    <h2 className="text-xl font-semibold mb-2">Live Website</h2>
+                    <h2 className="text-xl font-semibold mb-2">GitHub Repository</h2>
                     <a
                         href="https://github.com/adnanmahmud0/assignment9"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-blue-500 hover:underline"
+                        className="text-blue-400 hover:underline"
                     >
-                        Donation Platform github Link
+                        Donation Platform GitHub Link
                     </a>
                 </div>
 
@@ -57,9 +57,9 @@ const DonationPlatform = () => {
                 <div className="mb-6">
                     <h2 className="text-xl font-semibold mb-2">Technologies Used</h2>
                     <ul className="list-disc list-inside space-y-2">
-                        <li><FaCheckCircle className="inline text-green-500" /> <strong>Frontend:</strong> React, React Router</li>
-                        <li><FaCheckCircle className="inline text-green-500" /> <strong>Styling:</strong> Tailwind CSS</li>
-                        <li><FaCheckCircle className="inline text-green-500" /> <strong>Data Fetching:</strong> Fetch API</li>
+                        <li><FaCheckCircle className="inline text-green-400" /> <strong>Frontend:</strong> React, React Router</li>
+                        <li><FaCheckCircle className="inline text-green-400" /> <strong>Styling:</strong> Tailwind CSS</li>
+                        <li><FaCheckCircle className="inline text-green-400" /> <strong>Data Fetching:</strong> Fetch API</li>
                     </ul>
                 </div>
 
@@ -70,7 +70,7 @@ const DonationPlatform = () => {
                         <li>react-dom</li>
                         <li>react-router-dom</li>
                         <li>tailwindcss</li>
-                        <li>animatecss</li>
+                        <li>animate.css</li>
                         <li>ReactToastify</li>
                     </ul>
                 </div>
