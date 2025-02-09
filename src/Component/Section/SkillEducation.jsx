@@ -12,26 +12,26 @@ const SkillEducation = () => {
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {/* Frontend */}
-                    <div className="bg-white p-6 rounded-lg shadow-md text-center">
-                        <h3 className="text-2xl font-semibold mb-4 text-blue-600">Frontend</h3>
+                    <div className="bg-white/10 backdrop-blur-md p-6 rounded-lg shadow-md text-center border border-white/20">
+                        <h3 className="text-2xl font-semibold mb-4 text-blue-300">Frontend</h3>
                         <div className="flex justify-center space-x-6 text-5xl text-blue-500">
                             <p><FaHtml5 /> <FaCss3Alt /> <SiTailwindcss /> <FaJs /> <FaReact /></p>
                         </div>
                     </div>
 
                     {/* Backend */}
-                    <div className="bg-white p-6 rounded-lg shadow-md text-center">
-                        <h3 className="text-2xl font-semibold mb-4 text-green-600">Backend</h3>
+                    <div className="bg-white/10 backdrop-blur-md p-6 rounded-lg shadow-md text-center border border-white/20">
+                        <h3 className="text-2xl font-semibold mb-4 text-green-300">Backend</h3>
                         <div className="flex justify-center space-x-6 text-5xl text-green-500">
                             <p><FaNodeJs /> <SiExpress /> <SiMongodb /> <SiPhp /></p>
                         </div>
                     </div>
 
                     {/* Data Science & AI */}
-                    <div className="bg-white p-6 rounded-lg shadow-md text-center">
-                        <h3 className="text-2xl font-semibold mb-4 text-yellow-600">Data Science & AI</h3>
+                    <div className="bg-white/10 backdrop-blur-md p-6 rounded-lg shadow-md text-center border border-white/20">
+                        <h3 className="text-2xl font-semibold mb-4 text-yellow-300">Data Science & AI</h3>
                         <div className="flex justify-center space-x-6 text-5xl text-yellow-500">
-                            <p class="space-y-3">
+                            <p className="space-y-3">
                                 <SiPython /> <SiKeras />
                             </p>
                         </div>
