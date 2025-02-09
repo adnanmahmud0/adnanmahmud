@@ -6,7 +6,7 @@ const DoraGadget = () => {
     return (
         <div className="min-h-screen bg-gray-900 text-white p-6">
             <div className="max-w-6xl mx-auto bg-gray-800 shadow-lg rounded-lg p-6">
-                <h1 className="text-7xl font-bold text-center mb-6 text-white">Dora Gadget</h1>
+                <h1 className="text-6xl font-bold text-center mb-6 text-white">Dora Gadget</h1>
 
                 <p className="text-lg text-gray-300 text-center mb-4">
                     Welcome to <strong>Dora Gadget</strong>, an e-commerce platform designed to bring you the latest and greatest gadgets. Explore our wide range of products, add them to your cart, and manage your wishlist effortlessly.

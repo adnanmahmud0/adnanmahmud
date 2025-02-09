@@ -6,7 +6,7 @@ const Crowdcube = () => {
     return (
         <div className="min-h-screen bg-gray-900 text-white p-6">
             <div className="max-w-6xl mx-auto bg-gray-800 shadow-lg rounded-lg p-6">
-                <h1 className="text-3xl font-bold text-center mb-6 text-blue-400">Crowdcube - A Crowdfunding Application 🌟</h1>
+                <h1 className="text-6xl font-bold text-center mb-6 text-white">Crowdcube - A Crowdfunding Application</h1>
 
                 <p className="text-lg text-gray-300 text-center mb-4">
                     Welcome to <strong>Crowdcube</strong>, a modern crowdfunding platform designed to help individuals and organizations raise funds for various projects, causes, and creative ideas.
