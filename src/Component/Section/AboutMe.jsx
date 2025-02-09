@@ -24,11 +24,30 @@ const AboutMe = () => {
                 <div className="lg:h-[650px] md:h-[550px] flex items-center before:bg-gray-700 relative max-md:before:hidden before:absolute before:h-full before:w-3/4 before:right-0 before:z-0">
                     <img
                         src={adnanLogo}
-                        className="rounded-md lg:w-3/4 md:w-11/12 z-50 relative"
+                        className="md:ml-10 rounded-md lg:w-3/4 md:w-11/12 z-50 relative animate-zoom"
                         alt="MD ADNAN MAHMUD"
                     />
                 </div>
             </div>
+
+            {/* Adding the keyframe animation directly in JSX */}
+            <style jsx>{`
+                @keyframes zoomInOut {
+                    0% {
+                        transform: scale(1);
+                    }
+                    50% {
+                        transform: scale(1.1);
+                    }
+                    100% {
+                        transform: scale(1);
+                    }
+                }
+
+                .animate-zoom {
+                    animation: zoomInOut 3s infinite;
+                }
+            `}</style>
         </div>
     );
 };

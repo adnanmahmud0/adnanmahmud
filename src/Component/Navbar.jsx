@@ -22,7 +22,7 @@ const Navbar = () => {
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
-                                className="h-5 w-5 text-white" // Apply text-white class
+                                className="h-5 w-5 text-white"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke="currentColor"
@@ -34,7 +34,6 @@ const Navbar = () => {
                                     d="M4 6h16M4 12h8m-8 6h16"
                                 />
                             </svg>
-
                         </div>
                         <ul
                             tabIndex={0}
@@ -53,9 +52,30 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a href={CV} className="text-white md:py-5 md:px-10 py-2 px-4 border border-solid rounded-full border-gray-600">Download CV</a>
+                    <a href={CV} className="text-white md:py-5 md:px-10 py-2 px-4 border border-solid rounded-full border-gray-600 animate-borderEffect">Download CV</a>
                 </div>
             </div>
+
+            <style jsx>{`
+                @keyframes borderEffect {
+                    0% {
+                        border-color: rgba(255, 255, 255, 0.6);
+                        box-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+                    }
+                    50% {
+                        border-color: rgba(255, 255, 255, 1);
+                        box-shadow: 0 0 16px rgba(255, 255, 255, 1);
+                    }
+                    100% {
+                        border-color: rgba(255, 255, 255, 0.6);
+                        box-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+                    }
+                }
+
+                .animate-borderEffect {
+                    animation: borderEffect 2s infinite;
+                }
+            `}</style>
         </div>
     );
 };

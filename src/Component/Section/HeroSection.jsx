@@ -24,8 +24,8 @@ const HeroSection = () => {
                         Welcome to my professional portfolio. <br /> I am a Front-End Developer.
                     </p>
 
-                    <div className="mt-8 text-left">
-                        <a href={CV} className='text-white py-5 px-10 border border-solid rounded-full border-gray-600'>Download CV</a>
+                    <div className="my-10 text-left">
+                        <a href={CV} className=' text-white md:py-5 md:px-10 py-2 px-4 border border-solid rounded-full border-gray-600 animate-borderEffect'>Download CV</a>
                     </div>
 
                     <div className="space-x-3 mt-8">
@@ -44,6 +44,26 @@ const HeroSection = () => {
                     </div>
                 </div>
             </div>
+            <style jsx>{`
+                @keyframes borderEffect {
+                    0% {
+                        border-color: rgba(255, 255, 255, 0.6);
+                        box-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+                    }
+                    50% {
+                        border-color: rgba(255, 255, 255, 1);
+                        box-shadow: 0 0 16px rgba(255, 255, 255, 1);
+                    }
+                    100% {
+                        border-color: rgba(255, 255, 255, 0.6);
+                        box-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+                    }
+                }
+
+                .animate-borderEffect {
+                    animation: borderEffect 2s infinite;
+                }
+            `}</style>
         </>
     );
 };
