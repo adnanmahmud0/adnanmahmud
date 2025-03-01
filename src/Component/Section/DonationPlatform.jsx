@@ -4,8 +4,8 @@ import screenshot from '../../assets/project2.png';
 
 const DonationPlatform = () => {
     return (
-        <div className="min-h-screen  text-white p-6">
-            <div className="max-w-6xl mx-auto  shadow-lg rounded-lg p-6">
+        <div className="min-h-screen text-white p-6">
+            <div className="max-w-6xl mx-auto shadow-lg rounded-lg p-6">
                 <h1 className="text-6xl font-bold text-center mb-6 text-white">Donation Platform</h1>
 
                 <p className="text-lg text-gray-300 text-center mb-4">
@@ -55,23 +55,22 @@ const DonationPlatform = () => {
                 </div>
 
                 <div className="mb-6">
-                    <h2 className="text-xl font-semibold mb-2">Technologies Used</h2>
-                    <ul className="list-disc list-inside space-y-2">
-                        <li><FaCheckCircle className="inline text-green-400" /> <strong>Frontend:</strong> React, React Router</li>
-                        <li><FaCheckCircle className="inline text-green-400" /> <strong>Styling:</strong> Tailwind CSS</li>
-                        <li><FaCheckCircle className="inline text-green-400" /> <strong>Data Fetching:</strong> Fetch API</li>
+                    <h2 className="text-xl font-semibold mb-2">Challenges Faced</h2>
+                    <ul className="list-disc list-inside space-y-2 text-gray-300">
+                        <li>Ensuring an intuitive UI for smooth user experience.</li>
+                        <li>Managing state efficiently for donation campaigns.</li>
+                        <li>Optimizing performance with dynamic data fetching.</li>
+                        <li>Deploying the platform while maintaining responsiveness.</li>
                     </ul>
                 </div>
 
                 <div className="mb-6">
-                    <h2 className="text-xl font-semibold mb-2">NPM Packages</h2>
-                    <ul className="list-disc list-inside space-y-2">
-                        <li>react</li>
-                        <li>react-dom</li>
-                        <li>react-router-dom</li>
-                        <li>tailwindcss</li>
-                        <li>animate.css</li>
-                        <li>ReactToastify</li>
+                    <h2 className="text-xl font-semibold mb-2">Potential Improvements & Future Plans</h2>
+                    <ul className="list-disc list-inside space-y-2 text-gray-300">
+                        <li>Adding a backend for campaign creation and management.</li>
+                        <li>Integrating authentication for personalized donation tracking.</li>
+                        <li>Implementing payment gateway for monetary donations.</li>
+                        <li>Enhancing UI with animations and better interactivity.</li>
                     </ul>
                 </div>
 

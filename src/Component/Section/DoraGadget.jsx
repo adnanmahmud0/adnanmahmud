@@ -4,8 +4,8 @@ import projectImage from '../../assets/project1.png';
 
 const DoraGadget = () => {
     return (
-        <div className="min-h-screen  text-white p-6">
-            <div className="max-w-6xl mx-auto  shadow-lg rounded-lg p-6">
+        <div className="min-h-screen text-white p-6">
+            <div className="max-w-6xl mx-auto shadow-lg rounded-lg p-6">
                 <h1 className="text-6xl font-bold text-center mb-6 text-white">Dora Gadget</h1>
 
                 <p className="text-lg text-gray-300 text-center mb-4">
@@ -64,6 +64,26 @@ const DoraGadget = () => {
                         <li><FaCheckCircle className="inline text-green-400" /> <strong>Detailed Product Pages:</strong> Each product has a dedicated details page with a full description, price, specifications, and add-to-cart and wishlist options.</li>
                         <li><FaCheckCircle className="inline text-green-400" /> <strong>Price Sorting & Filtering:</strong> Users can sort cart items by price and filter products by category for easy navigation.</li>
                         <li><FaCheckCircle className="inline text-green-400" /> <strong>Responsive Design & 404 Page:</strong> Ensures a smooth user experience across devices and includes a custom 404 error page for unknown routes.</li>
+                    </ul>
+                </div>
+
+                <div className="mb-6">
+                    <h2 className="text-xl font-semibold mb-2 text-white">Challenges Faced</h2>
+                    <ul className="list-disc list-inside space-y-2 text-gray-300">
+                        <li>Managing state efficiently while handling the cart and wishlist functionalities.</li>
+                        <li>Implementing sorting and filtering features without affecting performance.</li>
+                        <li>Ensuring a fully responsive design for all screen sizes.</li>
+                        <li>Deploying the project seamlessly while maintaining functionality.</li>
+                    </ul>
+                </div>
+
+                <div className="mb-6">
+                    <h2 className="text-xl font-semibold mb-2 text-white">Potential Improvements & Future Plans</h2>
+                    <ul className="list-disc list-inside space-y-2 text-gray-300">
+                        <li>Integrating a user authentication system for a personalized experience.</li>
+                        <li>Adding a backend with a database for dynamic product management.</li>
+                        <li>Implementing payment gateway integration for seamless transactions.</li>
+                        <li>Enhancing UI/UX with animations and additional interactivity.</li>
                     </ul>
                 </div>
 

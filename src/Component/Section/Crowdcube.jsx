@@ -55,6 +55,24 @@ const Crowdcube = () => {
                     </ul>
                 </div>
 
+                <div className="mb-6">
+                    <h2 className="text-xl font-semibold mb-2 text-blue-300">🚧 Challenges Faced</h2>
+                    <ul className="list-disc list-inside space-y-2 text-gray-300">
+                        <li>Implementing secure authentication.</li>
+                        <li>Optimizing the campaign management system.</li>
+                        <li>Ensuring smooth performance for high-traffic use.</li>
+                    </ul>
+                </div>
+
+                <div className="mb-6">
+                    <h2 className="text-xl font-semibold mb-2 text-blue-300">🔮 Potential Improvements & Future Plans</h2>
+                    <ul className="list-disc list-inside space-y-2 text-gray-300">
+                        <li>Adding blockchain-based payment integration.</li>
+                        <li>Implementing AI-driven campaign suggestions.</li>
+                        <li>Expanding donation tracking with real-time analytics.</li>
+                    </ul>
+                </div>
+
                 <p className="text-center text-gray-400 mt-8">
                     Thank you for exploring Crowdcube! 🚀
                 </p>
