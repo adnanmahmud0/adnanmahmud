@@ -16,6 +16,20 @@ const Navbar = () => {
 
     return (
         <div className=''>
+            <div className="bg-indigo-600 text-white px-4 py-2 text-sm text-center font-sans">
+                <div className="gap-2">
+                    New portfolio coming soon! | 4 days remaining | To see the development version,
+                    <a
+                        href="https://adnanmahmud99.vercel.app/"
+                        className="underline font-semibold text-white hover:text-gray-200"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        click here!
+                    </a>
+                </div>
+            </div>
+
             <div className="navbar max-w-7xl mx-auto">
                 <div className="navbar-start my-10">
                     <div className="dropdown">
